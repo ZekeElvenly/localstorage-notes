@@ -79,6 +79,7 @@ function clipboardSelection(e) {
     };
     const clipboardChild = e.target;
     clipboardIndex = clipboardChild.dataset.index;
+    // for multi selections, still working on it
     // if (e.ctrlKey && e.target.matches('.clipboard-component')) {
     //     selections.push(clipboardIndex);
     //     clipboardChild.classList.add('selected');
