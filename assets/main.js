@@ -38,7 +38,7 @@ function createView(clipboards = [], contentList) {
 
 function editClipboards() {
     const titleToEdit = clipboards[clipboardIndex].title || '';
-    const contentToEdit = clipboaords[clipboardIndex].content || '';
+    const contentToEdit = clipboards[clipboardIndex].content || '';
     document.querySelector('[name=title-edit]').value = titleToEdit;
     document.querySelector('[name=content-edit]').value = contentToEdit;
 }
